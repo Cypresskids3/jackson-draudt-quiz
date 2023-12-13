@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Quiz</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="question-box">
+        <h1 class="question-text">
+            What is the largest animal in the world? 
+        </h1>
+        <img src="./images/q1.jpg" alt="" class="question-img">
+        <div class="answers">
+            
+            <button class="answer" onclick="incorrect(this)">Lion</button>
+            <button class="answer" onclick="incorrect(this)">Elephant</button>
+            <button class="answer" onclick="incorrect(this)">Orca</button>
+            <button class="answer" onclick="correct(this)">Blue Whale</button>
+        </div>
+    </div>
+
+    <div class="question-box">
+        <h1 class="question-text">
+            What is the only mammal that can lay eggs? 
+        </h1>
+        <img src="./images/Eggs.jpg" alt="" class="question-img">
+        <div class="answers">
+            
+            <button class="answer" onclick="incorrect(this)">otter</button>
+            <button class="answer" onclick="incorrect(this)">ferret</button>
+            <button class="answer" onclick="incorrect(this)">bear</button>
+            <button class="answer" onclick="correct(this)">platypus</button>
+        </div>
+    </div>
+
+    <div class="question-box">
+        <h1 class="question-text">
+            What was the largest bird to ever live? 
+        </h1>
+        <img src="./images/th.jpg" alt="" class="question-img">
+        <div class="answers">
+            
+            <button class="answer" onclick="correct(this)">elaphent bird</button>
+            <button class="answer" onclick="incorrect(this)">ostrich</button>
+            <button class="answer" onclick="incorrect(this)">flamingo</button>
+            <button class="answer" onclick="incorrect(this)">crane</button>
+        </div>
+    </div>
+
+    <div class="question-box">
+        <h1 class="question-text">
+            What is the largest cat? (not wild cats)
+        </h1>
+        <img src="./images/kitty.jpg.crdownload" alt="" class="question-img">
+        <div class="answers">
+            
+            <button class="answer" onclick="incorrect(this)">SIMBA</button>
+            <button class="answer" onclick="correct(this)">main coon</button>
+            <button class="answer" onclick="incorrect(this)">scottish fold</button>
+            <button class="answer" onclick="incorrect(this)">grey tabby</button>
+        </div>
+    </div>
+
+    <div class="question-box">
+        <h1 class="question-text">
+            What is this?
+        </h1>
+        <img src="./images/buzz buzz.jpg" alt="" class="question-img">
+        <div class="answers">
+            
+            <button class="answer" onclick="incorrect(this)">german yellow jacket</button>
+            <button class="answer" onclick="incorrect(this)">southern yellow jacket</button>
+            <button class="answer" onclick="correct(this)"> bald faced hornet</button>
+            <button class="answer" onclick="incorrect(this)">giant asian hornet</button>
+        </div>
+    </div>
+
+    <div class="question-box">
+        <h1 class="question-text">
+            what is the most smallest animal(that you can see)
+        </h1>
+        <img src="./images/3-7.jpg" alt="" class="question-img">
+        <div class="answers">
+            
+            <button class="answer" onclick="incorrect(this)">this is the right answer</button>
+            <button class="answer" onclick="incorrect(this)">grass hopper</button>
+            <button class="answer" onclick="correct(this)">Etruscan shrew</button>
+            <button class="answer" onclick="incorrect(this)">kiwi</button>
+        </div>
+    </div>
+
+    <div class="question-box">
+        <h1 class="question-text">
+            what leaves its stinger when it stings something
+        </h1>
+        <img src="./images/bee-stinger-in-skin-featured.jpg" alt="" class="question-img">
+        <div class="answers">
+            
+            <button class="answer" onclick="incorrect(this)">wasp</button>
+            <button class="answer" onclick="correct(this)">honey bee</button>
+            <button class="answer" onclick="incorrect(this)">carpenter bee</button>
+            <button class="answer" onclick="incorrect(this)">ant</button>
+        </div>
+    </div>
+
+    <div class="question-box">
+        <h1 class="question-text">
+            What are german shepards most used for
+        </h1>
+        <img src="./images/th 2.jpg" alt="" class="question-img">
+        <div class="answers">
+            
+            <button class="answer" onclick="correct(this)">police</button>
+            <button class="answer" onclick="incorrect(this)">fire fighting</button>
+            <button class="answer" onclick="incorrect(this)">sheep herding</button>
+            <button class="answer" onclick="incorrect(this)">snifing out bombs</button>
+        </div>
+    </div>
+
+    <div class="question-box">
+        <h1 class="question-text">
+            What is this?
+        </h1>
+        <img src="./images/Barnacle-2 (2).jpg" alt="" class="question-img">
+        <div class="answers">
+            
+            <button class="answer" onclick="incorrect(this)">goat</button>
+            <button class="answer" onclick="incorrect(this)">some insect idk</button>
+            <button class="answer" onclick="incorrect(this)"> butterfly</button>
+            <button class="answer" onclick="correct(this)">barnacle</button>
+        </div>
+    </div> 
+
+    <div class="question-box">
+        <h1 class="question-text">
+            why did i ace this test(hopefully)
+        </h1>
+        <img src="./images/th (1).jpg" alt="" class="question-img">
+        <div class="answers">
+            
+            <button class="answer" onclick="incorrect(this)">i lost lol</button>
+            <button class="answer" onclick="incorrect(this)">cus im horible</button>
+            <button class="answer" onclick="correct(this)"> cus im the GOAT</button>
+            <button class="answer" onclick="incorrect(this)">not the right answer</button>
+        </div>
+        <button class="submit" onclick="calculateScore(this)">Submit</button>
+        <button class="reset" onclick="reset()">Reset</button>
+    </div>
+
+    
+</body>
+</html>

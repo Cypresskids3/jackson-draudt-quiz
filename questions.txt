@@ -1,0 +1,31 @@
+Topic: Animals
+
+Question 1: What is the largest animal in the world? 
+Lion | Elephant | Orca | Blue Whale <-
+
+Question 2: What is the smallest mammal in the world? 
+Shrew <- | Rat | Mouse | Cat
+
+Question 3: What animal is this? (Mammoth IMG)
+Saber Tooth Tiger | Dodo Bird | Mammoth <- | Pterodactyl
+
+Question 4: What is the biggest fish? 
+Whale Shark <- | Great White Shark | Hammerhead Shark | Beluga Whale
+
+Question 5: Where is the highest diversity of wildlife found? 
+Coral Reef | Tropial Rainforest <- | Desert | Tundra
+
+Question 6: Which reptile is native to the swamps of Louisiana? 
+Python | Clown Fish | Alligator <- | Crocodile
+
+Question 7: Which animal can breathe in water and air? 
+Snake | Cow | Dolphin | Crab <-
+
+Question 8: What is the most dangerous insect? 
+Bee | Wasp | Fire Ant | Mosquito <-
+
+Question 9: What animal is known for its iconic black and white stripes? 
+Cow | Zebra <- | Dog | Macaw
+
+Question 10: What animal is known for mimicing human speech? 
+Parrot <- | Crow | Pigeon | Dove
